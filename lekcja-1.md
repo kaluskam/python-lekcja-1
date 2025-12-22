@@ -277,6 +277,8 @@ Program powinien:
   * miasto
   * zawód
   * jedną umiejętność, której chcesz się nauczyć
+  * czy posiada samochód 
+  * wzrost w metrach
 * wyświetlić czytelne i estetyczne podsumowanie
 
 📌 Przykład:
@@ -290,6 +292,8 @@ Wiek: 30
 Miasto: Berlin
 Zawód: Grafik
 Cel nauki: Automatyzacja w Pythonie
+Posiadasz samochód: (True/False)
+Wzrost: 1.73m
 ```
 
 ### ⭐ Zadania dodatkowe (opcjonalne)
