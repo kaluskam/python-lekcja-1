@@ -12,6 +12,23 @@ if wynik>=0 and wynik<=100:
         ocena=5
     else:
         ocena=6
-    print(f'twoja ocena to: {ocena}')
+
+    print(f"twoja ocena to {ocena}")
 else:
     print("nieprawidowy wynik")
+
+
+age=int(input("how old are you?"))
+if age>=18:
+    print("adult")
+else:
+    print("teenager")
+
+def print_day_type():
+    day=input("provide a day: ")
+    if day=="saturday" or day=="sunday":
+        print("weekend")
+    else:
+        print("weekday")
+
+print_day_type()
